@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://december-guide.timetostay.com",
+    url: "https://detty-december-guide.vercel.app",
     siteName: "December Guide - Lagos",
     title: "Time To Stay — Lagos Detty December Survival Guide",
     description:
