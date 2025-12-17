@@ -19,6 +19,7 @@ export default function Hero() {
           className="w-full h-full object-cover"
           height={2400}
           width={1920}
+          loading="lazy"
         />
         <div className="absolute inset-0 bg-black/40" />
       </div>
