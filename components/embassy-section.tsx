@@ -34,7 +34,7 @@ export default function EmbassySection() {
   return (
     <SectionContainer
       id="embassy"
-      background="grey"
+      background="white"
       title="Embassy & High Commission Directory"
       intro="Additional embassies are located primarily in Victoria Island and Ikoyi."
     >

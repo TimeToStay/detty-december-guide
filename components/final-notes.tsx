@@ -2,7 +2,7 @@ import SectionContainer from "./section-container"
 
 export default function FinalNotes() {
   return (
-    <SectionContainer id="final-notes" background="white">
+    <SectionContainer id="final-notes" background="grey">
       <div className="text-center max-w-4xl mx-auto py-12">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
           Final Notes for Visitors

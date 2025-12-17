@@ -5,7 +5,7 @@ export default function ScamsSection() {
   return (
     <SectionContainer
       id="scams"
-      background="white"
+      background="grey"
       title="Common Scams to Avoid"
       intro="Being informed is the best protection."
     >
