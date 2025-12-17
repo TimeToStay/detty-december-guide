@@ -1,0 +1,66 @@
+import SectionContainer from "./section-container"
+import { Card } from "./ui-card"
+import Link from 'next/link'
+
+export default function EmbassySection() {
+  const embassies = [
+    {
+      country: "United States",
+      name: "U.S. Consulate General Lagos",
+      address: "2 Walter Carrington Crescent, Victoria Island, Lagos",
+      url: "https://ng.usembassy.gov/consulate-lagos/",
+    },
+    {
+      country: "United Kingdom",
+      name: "British Deputy High Commission Lagos",
+      address: "11 Walter Carrington Crescent, Victoria Island, Lagos",
+      url: "https://www.gov.uk/world/organisations/british-deputy-high-commission-lagos",
+    },
+    {
+      country: "Canada",
+      name: "Deputy High Commission of Canada",
+      address: "4 Anifowoshe Street, Victoria Island, Lagos",
+      url: "https://www.international.gc.ca/country-pays/nigeria/lagos.aspx",
+    },
+    {
+      country: "Netherlands",
+      name: "Consulate‑General of the Netherlands",
+      address: "14A Walter Carrington Crescent, Victoria Island, Lagos",
+      url: "https://www.netherlandsworldwide.nl/contact/embassies-consulates-general/nigeria/consulate-general-lagos",
+    },
+  ]
+
+  return (
+    <SectionContainer
+      id="embassy"
+      background="grey"
+      title="Embassy & High Commission Directory"
+      intro="Additional embassies are located primarily in Victoria Island and Ikoyi."
+    >
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {embassies.map((embassy, index) => (
+          <Card key={index} hover={true}>
+            <p className="text-xs uppercase tracking-wider mb-3 text-black/50">
+              {embassy.country}
+            </p>
+            <h3 className="text-xl md:text-2xl font-bold mb-3">
+              {embassy.name}
+            </h3>
+            <p className="text-sm md:text-base text-black/70 mb-4 leading-relaxed">{embassy.address}</p>
+            <Link
+              href={embassy.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 border-b border-black/30 hover:border-black transition-colors text-sm font-medium"
+            >
+              Visit Website
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </Card>
+        ))}
+      </div>
+    </SectionContainer>
+  )
+}
