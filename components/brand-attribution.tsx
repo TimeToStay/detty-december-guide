@@ -1,6 +1,6 @@
-import { Facebook, Instagram, } from "lucide-react"
 import { SiTiktok } from "react-icons/si"
 import Link from 'next/link'
+import { FaYoutube, FaLinkedin, FaInstagramSquare } from "react-icons/fa";
 
 export default function BrandAttribution() {
   return (
@@ -31,31 +31,40 @@ export default function BrandAttribution() {
 
               <div className="flex items-center gap-6">
                 <Link
-                  href="https://facebook.com/timetostay"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Follow us on Facebook"
-                  className="text-black hover:text-black/60 hover:-translate-y-0.5 transition-all duration-300"
-                >
-                  <Facebook className="w-5 h-5" strokeWidth={1.5} />
-                </Link>
-                <Link
-                  href="https://instagram.com/timetostay"
+                  href="https://www.instagram.com/tts_experience"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Follow us on Instagram"
                   className="text-black hover:text-black/60 hover:-translate-y-0.5 transition-all duration-300"
                 >
-                  <Instagram className="w-5 h-5" strokeWidth={1.5} />
+                  <FaInstagramSquare className="w-5 h-5" strokeWidth={1.5} />
                 </Link>
                 <Link
-                  href="https://tiktok.com/@timetostay"
+                  href="https://tiktok.com/@timetostay.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Follow us on TikTok"
                   className="text-black hover:text-black/60 hover:-translate-y-0.5 transition-all duration-300"
                 >
                   <SiTiktok className="w-5 h-5" />
+                </Link>
+                <Link
+                  href="https://youtube.com/@timetostayofficial"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow us on YouTube"
+                  className="text-black hover:text-black/60 hover:-translate-y-0.5 transition-all duration-300"
+                >
+                  <FaYoutube className="w-5 h-5" />
+                </Link>
+                <Link
+                  href="https://www.linkedin.com/company/timetostay"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow us on LinkedIn"
+                  className="text-black hover:text-black/60 hover:-translate-y-0.5 transition-all duration-300"
+                >
+                  <FaLinkedin className="w-5 h-5" />
                 </Link>
               </div>
             </div>
