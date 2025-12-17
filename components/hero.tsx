@@ -14,7 +14,7 @@ export default function Hero() {
     <header className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="/lagos-nigeria-nighttime-cityscape-with-lights.jpg"
+          src="/lagos-nigeria-nighttime-cityscape-with-lights.jpeg"
           alt="Lagos city at night during December"
           className="w-full h-full object-cover"
           height={2400}

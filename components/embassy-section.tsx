@@ -1,6 +1,7 @@
 import SectionContainer from "./section-container"
 import { Card } from "./ui-card"
 import Link from 'next/link'
+import ArrowRight from './ui/arrow-right'
 
 export default function EmbassySection() {
   const embassies = [
@@ -54,9 +55,7 @@ export default function EmbassySection() {
               className="inline-flex items-center gap-2 border-b border-black/30 hover:border-black transition-colors text-sm font-medium"
             >
               Visit Website
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
+              <ArrowRight />
             </Link>
           </Card>
         ))}

@@ -6,11 +6,10 @@ export default function TransportSection() {
   return (
     <SectionContainer
       id="transport"
-      background="white"
+      background="grey"
       title="Transport & Airport Guidance"
       intro="The safest way for visitors to move around Lagos is by registered ride‑hailing services."
     >
-      {/* Editorial Image */}
       <div className="mb-16 -mx-6 md:-mx-12 lg:-mx-24">
         <Image
           src="/lagos-airport-exterior-at-dusk-with-city-traffic.jpg"
@@ -28,9 +27,9 @@ export default function TransportSection() {
           Recommended Ride Services
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <InfoCard title="Uber" description="International ride-hailing service available across Lagos" />
-          <InfoCard title="Bolt" description="Popular alternative with competitive pricing" />
-          <InfoCard title="LagRide" description="Government-backed local service" />
+          <InfoCard title="Uber" description="International ride-hailing service available across Lagos" linkText="Download App" href="https://www.uber.com/ng/en/download" />
+          <InfoCard title="Bolt" description="Popular alternative with competitive pricing" linkText="Visit Website" href="https://bolt.eu/en-ng/cities/lagos" />
+          <InfoCard title="LagRide" description="Government-backed local service" linkText="Visit Website" href="https://www.lagride.ng" />
         </div>
       </div>
 

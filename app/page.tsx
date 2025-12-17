@@ -16,11 +16,11 @@ export default function Page() {
     <main className="min-h-screen">
       <Hero />
       <SafetySection />
-      <EmergencySection />
-      <TransportSection />
-      <MoneySection />
       <EventsSection />
+      <TransportSection />
       <NeighborhoodsSection />
+      <MoneySection />
+      <EmergencySection />
       <ScamsSection />
       <EmbassySection />
       <FinalNotes />

@@ -33,6 +33,8 @@ export default function MoneySection() {
             "Street currency exchange carries scam and legal risks",
             "Use banks or licensed Bureau de Change locations only",
           ]}
+          linkText="Discover verified FX locations"
+          href="https://wise.com/gb/currency-exchange/lagos-nigeria"
         />
       </div>
     </SectionContainer>

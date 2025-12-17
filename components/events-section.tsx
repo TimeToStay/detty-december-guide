@@ -10,7 +10,6 @@ export default function EventsSection() {
       title="Detty December Events & Nightlife"
       intro="December in Lagos is intense, social, and fast‑moving."
     >
-      {/* Editorial Image */}
       <div className="mb-16 -mx-6 md:-mx-12 lg:-mx-24">
         <Image
           src="/lagos-nightlife-event-queue-at-night-with-crowd.jpg"
@@ -28,10 +27,10 @@ export default function EventsSection() {
           What Typically Happens
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <InfoCard title="Music Concerts" description="Major festivals and live performances" hover={true} />
-          <InfoCard title="Beach Parties" description="Day events along the coast" hover={true} />
-          <InfoCard title="Comedy Shows" description="Pop-up experiences and stand-up" hover={true} />
-          <InfoCard title="Art & Markets" description="Exhibitions and cultural events" hover={true} />
+          <InfoCard title="Music Concerts" description="Major festivals and live performances" hover={true} linkText="Book Tickets" href="https://egotickets.com/events/happening-in-lagos"/>
+          <InfoCard title="Beach Parties" description="Day events along the coast" hover={true} linkText="Discover" href="https://www.jetronticket.com" />
+          <InfoCard title="Comedy Shows" description="Pop-up experiences and stand-up" hover={true} linkText="View Events" href="https://www.ariiyatickets.com/events/" />
+          <InfoCard title="Art & Markets" description="Exhibitions and cultural events" hover={true} linkText="Explore Art Galleries" href="https://roadbook.com/lagos/city-guide/best-art-galleries-lagos-nigeria" />
         </div>
       </div>
 

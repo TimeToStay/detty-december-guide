@@ -6,7 +6,7 @@ export default function NeighborhoodsSection() {
   return (
     <SectionContainer
       id="neighborhoods"
-      background="grey"
+      background="white"
       title="Tourist‑Friendly Neighborhoods"
       intro="Visitors generally find these areas easier to navigate with stronger infrastructure and security presence."
     >

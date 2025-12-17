@@ -3,11 +3,11 @@ import { EmergencyCard, InfoCard } from "./ui-card"
 
 export default function EmergencySection() {
   const hospitals = [
-    { name: "Lagoon Hospital", location: "17B Bourdillon Road, Ikoyi, Lagos" },
-    { name: "Reddington Hospital", location: "Victoria Island & Lekki locations" },
-    { name: "Evercare Hospital", location: "Bisola Durosinmi‑Etti Drive, Lekki Phase 1" },
-    { name: "St Nicholas Hospital", location: "57 Campbell Street, Lagos Island" },
-    { name: "Lagos State University Teaching Hospital (LASUTH)", location: "Ikeja" },
+    { name: "Lagoon Hospital", location: "17B Bourdillon Road, Ikoyi, Lagos", linkText: "Visit Website", href: "https://www.lagoonhospitals.com" },
+    { name: "Reddington Hospital", location: "Victoria Island & Lekki locations", linkText: "Visit Website", href: "https://reddingtonhospital.com" },
+    { name: "Evercare Hospital", location: "Bisola Durosinmi‑Etti Drive, Lekki Phase 1", linkText: "Visit Website", href: "https://www.evercare.ng/services" },
+    { name: "St Nicholas Hospital", location: "57 Campbell Street, Lagos Island", linkText: "Visit Website", href: "https://saintnicholashospital.com" },
+    { name: "Lagos State University Teaching Hospital (LASUTH)", location: "Ikeja", linkText: "Visit Website", href: "https://lasuth.org.ng" },
   ]
 
   return (
@@ -19,9 +19,10 @@ export default function EmergencySection() {
     >
       {/* Emergency Numbers Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-        <EmergencyCard service="Nationwide Emergency" number="112" description="Police, Fire, Ambulance" />
-        <EmergencyCard service="LASEMA" number="767" description="Lagos State Emergency Management" />
-        <EmergencyCard service="Road Safety" number="122" description="Federal Road Safety Corps" />
+        <EmergencyCard service="Nationwide Emergency" number="112" description="Police, Fire, Ambulance" linkText="Visit Website" href="https://emergencyresponseafrica.com/top-30-lagos-emergency-numbers-you-should-know" />
+        <EmergencyCard service="LASEMA" number="767" description="Lagos State Emergency Management" linkText="Visit Website" href="https://www.instagram.com/lasemasocial" />
+        <EmergencyCard service="Road Safety" number="122" description="Federal Road Safety Corps" linkText="Visit Website" href="https://ww
+        w.frsc.gov.ng/home" />
       </div>
 
       {/* Hospitals Section */}
@@ -31,7 +32,7 @@ export default function EmergencySection() {
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {hospitals.map((hospital, index) => (
-            <InfoCard key={index} title={hospital.name} subtitle={hospital.location} />
+            <InfoCard key={index} title={hospital.name} subtitle={hospital.location} href={hospital.href} linkText={hospital.linkText} />
           ))}
         </div>
       </div>
