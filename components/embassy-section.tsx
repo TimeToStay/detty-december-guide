@@ -2,6 +2,7 @@ import SectionContainer from "./section-container"
 import { Card } from "./ui-card"
 import Link from 'next/link'
 import ArrowRight from './ui/arrow-right'
+import Image from 'next/image'
 
 export default function EmbassySection() {
   const embassies = [
@@ -38,6 +39,19 @@ export default function EmbassySection() {
       title="Embassy & High Commission Directory"
       intro="Additional embassies are located primarily in Victoria Island and Ikoyi."
     >
+      
+
+      <div className="mb-16 -mx-6 md:-mx-12 lg:-mx-24">
+        <Image
+          src="/us-consulate-general-lagos.jpg"
+          alt="Lagos Neigbourhood Watch Securing the entrance to an event"
+          className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover"
+          loading="lazy"
+          width={1280}
+          height={800}
+        />
+      </div>
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {embassies.map((embassy, index) => (
           <Card key={index} hover={true}>

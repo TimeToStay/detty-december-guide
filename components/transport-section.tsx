@@ -53,6 +53,17 @@ export default function TransportSection() {
         />
       </div>
 
+      <div className="mt-16 -mx-6 md:-mx-12 lg:-mx-24">
+      <Image
+          src="/lagos-nightlife-crowd-movement-at-night-slightly.jpg"
+          alt="Nighttime atmosphere in Lagos showing urban activity"
+          className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover"
+          loading="lazy"
+          width={2400}
+          height={1600}
+        />
+        </div>
+
       {/* Traffic Reality */}
       <div className="mt-12 bg-black text-white p-8 md:p-12">
         <h3 className="text-2xl md:text-3xl font-[family-name:var(--font-display)] font-bold mb-4">Traffic Reality</h3>

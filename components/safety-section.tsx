@@ -2,6 +2,7 @@ import SectionContainer from "./section-container"
 import { WarningCard } from "./ui-card"
 import Image from 'next/image'
 
+
 export default function SafetySection() {
   return (
     <SectionContainer
@@ -10,15 +11,14 @@ export default function SafetySection() {
       title="Safety & Survival Tips for Lagos"
       intro="Lagos is vibrant, welcoming, and fast-paced. Staying alert makes a real difference."
     >
-      {/* Editorial Image */}
       <div className="mb-16 -mx-6 md:-mx-12 lg:-mx-24">
         <Image
-          src="/lagos-nightlife-crowd-movement-at-night-slightly.jpg"
-          alt="Nighttime atmosphere in Lagos showing urban activity"
+          src="/lagos-neighborhood-watch-securing-an-event.jpg"
+          alt="Lagos Neigbourhood Watch Securing the entrance to an event"
           className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover"
           loading="lazy"
-          width={2400}
-          height={1600}
+          width={1280}
+          height={800}
         />
       </div>
 

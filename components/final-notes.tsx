@@ -1,4 +1,5 @@
 import SectionContainer from "./section-container"
+import Image from 'next/image'
 
 export default function FinalNotes() {
   return (
@@ -13,6 +14,8 @@ export default function FinalNotes() {
           <p className="text-black/70">This guide is intended to support you while you are here.</p>
         </div>
       </div>
+
+      
     </SectionContainer>
   )
 }

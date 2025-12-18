@@ -10,10 +10,9 @@ export default function NeighborhoodsSection() {
       title="Tourist‑Friendly Neighborhoods"
       intro="Visitors generally find these areas easier to navigate with stronger infrastructure and security presence."
     >
-      {/* Editorial Image */}
       <div className="mb-16 -mx-6 md:-mx-12 lg:-mx-24">
         <Image
-          src="/lagos-lekki-victoria-island-beach-daytime-calm.webp"
+          src="/lagos-lekki-victoria-island-beach-daytime-calm.jpeg"
           alt="Tourist-friendly areas in Lagos including beach and urban spaces"
           className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover"
           loading="lazy"
@@ -29,7 +28,17 @@ export default function NeighborhoodsSection() {
         <InfoCard title="Lekki Phase 1" description="Beaches, parties, social venues" hover={true} />
       </div>
 
-      {/* Safety Tips for Other Areas */}
+<div className="mb-16 -mx-6 md:-mx-12 lg:-mx-24">
+        <Image
+          src="/dinner-night-by-the-beach.jpg"
+          alt="Tourist-friendly areas in Lagos including beach and urban spaces"
+          className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover"
+          loading="lazy"
+          height={1000}
+          width={1400}
+        />
+      </div>
+
       <WarningCard
         title="In Other Parts of Lagos"
         items={["Exercise increased awareness", "Visit with locals or trusted contacts", "Avoid wandering at night"]}
