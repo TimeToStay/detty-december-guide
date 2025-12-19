@@ -18,8 +18,8 @@ export default function Hero() {
           src="/lagos-nigeria-daytime-cityscape-with-lights.webp"
           alt="Lagos city at night during December"
           className="w-full h-full object-cover"
-          height={2400}
-          width={1920}
+          height={1512}
+          width={1134}
           loading="lazy"
         />
         <div className="absolute inset-0 bg-black/40" />
