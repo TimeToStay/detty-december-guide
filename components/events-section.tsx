@@ -12,12 +12,12 @@ export default function EventsSection() {
     >
       <div className="mb-16 -mx-6 md:-mx-12 lg:-mx-24">
         <Image
-          src="/couples-lounging-and-getting-the-best-of-detty-december.jpg"
+          src="/lagos-event-scene-during-detty-december-nightlife.webp"
           alt="Lagos event scene during Detty December nightlife"
           className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover"
           loading="lazy"
-          height={770}
-          width={895}
+          height={1954}
+          width={1646}
         />
       </div>
 

@@ -12,12 +12,12 @@ export default function NeighborhoodsSection() {
     >
       <div className="mb-16 -mx-6 md:-mx-12 lg:-mx-24">
         <Image
-          src="/lagos-lekki-victoria-island-beach-daytime-calm.jpeg"
+          src="/lagos-lekki-victoria-island-beach-daytime-calm.webp"
           alt="Tourist-friendly areas in Lagos including beach and urban spaces"
           className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover"
           loading="lazy"
-          height={1000}
-          width={1400}
+          height={1512}
+          width={1134}
         />
       </div>
 
@@ -30,12 +30,12 @@ export default function NeighborhoodsSection() {
 
 <div className="mb-16 -mx-6 md:-mx-12 lg:-mx-24">
         <Image
-          src="/dinner-night-by-the-beach.jpg"
+          src="/tourist-friendly-areas-in-lagos-including-beach-and-urban-spaces.webp"
           alt="Tourist-friendly areas in Lagos including beach and urban spaces"
           className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover"
           loading="lazy"
-          height={1000}
-          width={1400}
+          height={1512}
+          width={1134}
         />
       </div>
 

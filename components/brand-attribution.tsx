@@ -18,7 +18,6 @@ export default function BrandAttribution() {
               </p>
             </div>
 
-            {/* Right side: Brand links */}
             <div className="flex flex-col justify-center space-y-6">
               <Link
                 href="https://www.timetostay.com/hotels-and-travels"
@@ -67,6 +66,35 @@ export default function BrandAttribution() {
                   <FaLinkedin className="w-5 h-5" />
                 </Link>
               </div>
+            </div>
+          </div>
+
+           <div className="mt-12 pt-12 border-t border-black/10">
+            <div className="flex flex-wrap gap-6 justify-center md:justify-start">
+              <a
+                href="https://www.timetostay.com/short-stay"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-sans text-sm text-black/70 hover:text-black transition-colors duration-300 underline underline-offset-4"
+              >
+                Reserve Your Next Stay
+              </a>
+              <a
+                href="https://www.timetostay.com/packages"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-sans text-sm text-black/70 hover:text-black transition-colors duration-300 underline underline-offset-4"
+              >
+                Check Out Our Personalized Packages
+              </a>
+              <a
+                href="https://www.timetostay.com/hotels-and-travels"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-sans text-sm text-black/70 hover:text-black transition-colors duration-300 underline underline-offset-4"
+              >
+                Book Now
+              </a>
             </div>
           </div>
         </div>

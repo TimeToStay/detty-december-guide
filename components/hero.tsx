@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react"
 import Image from 'next/image'
+import Logo from './ui/logo'
 
 export default function Hero() {
   const [isVisible, setIsVisible] = useState(false)
@@ -14,7 +15,7 @@ export default function Hero() {
     <header className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="/lagos-nigeria-nighttime-cityscape-with-lights.jpeg"
+          src="/lagos-nigeria-daytime-cityscape-with-lights.webp"
           alt="Lagos city at night during December"
           className="w-full h-full object-cover"
           height={2400}
@@ -30,6 +31,7 @@ export default function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
+          <Image src="/favicon.png" alt="Time to stay logo" loading="lazy" width={150} height={150} className="w-12 h-12 invert mb-6 m-auto" />
           <h1 className="font-[family-name:var(--font-independent)] text-5xl md:text-7xl lg:text-8xl tracking-tight mb-8 text-white">
             Time To Stay
           </h1>
