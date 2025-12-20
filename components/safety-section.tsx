@@ -35,7 +35,7 @@ export default function SafetySection() {
           ]}
         />
         <WarningCard
-          title="Nighttime Awareness"
+          title="Night Time Awareness"
           items={[
             "Attend events in groups when possible",
             "Arrange your ride home before nightlife activities",
